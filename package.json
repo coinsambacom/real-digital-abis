@@ -1,5 +1,5 @@
 {
-  "name": "real-digital-abis",
+  "name": "@coinsamba/real-digital-abis",
   "version": "0.1.0",
   "description": "",
   "type": "module",
@@ -12,6 +12,7 @@
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "scripts": {
+    "prepublishOnly": "git push --follow-tags",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
