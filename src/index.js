@@ -1,0 +1,9 @@
+export { default as AddressDiscovery } from "./abis/AddressDiscovery.json";
+export { default as KeyDictionary } from "./abis/KeyDictionary.json";
+export { default as RealDigital } from "./abis/RealDigital.json";
+export { default as RealDigitalDefaultAccount } from "./abis/RealDigitalDefaultAccount.json";
+export { default as RealDigitalEnableAccount } from "./abis/RealDigitalEnableAccount.json";
+export { default as RealTokenizado } from "./abis/RealTokenizado.json";
+export { default as STR } from "./abis/STR.json";
+export { default as SwapOneStep } from "./abis/SwapOneStep.json";
+export { default as SwapTwoSteps } from "./abis/SwapTwoSteps.json";
