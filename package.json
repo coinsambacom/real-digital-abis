@@ -16,9 +16,15 @@
     "build": "microbundle",
     "dev": "microbundle watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "real digital",
+    "cbdc",
+    "erc20",
+    "abi",
+    "solidity"
+  ],
+  "author": "Gustavo <gustavo@obex.pw>",
+  "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.15.1"
   },
