@@ -13,7 +13,6 @@
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "release": "git push --follow-tags && gh-release -y",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
@@ -21,7 +20,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-release": "^7.0.2",
     "microbundle": "^0.15.1"
   },
   "homepage": "https://github.com/coinsambacom/real-digital-abis",
