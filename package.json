@@ -12,7 +12,7 @@
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "prepublishOnly": "git push --follow-tags",
+    "release": "git push --follow-tags && gh-release -y",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
@@ -20,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-release": "^7.0.2",
     "microbundle": "^0.15.1"
   }
 }
