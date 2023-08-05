@@ -1,6 +1,6 @@
 {
   "name": "@coinsamba/real-digital-abis",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Just the Real Digital CBDC ABIs in an NPM package. As simple as that!",
   "type": "module",
@@ -24,6 +24,10 @@
     "erc20",
     "abi",
     "solidity"
+  ],
+  "files": [
+    "dist/**.js*",
+    "dist/**/*.ts"
   ],
   "author": "Gustavo <gustavo@obex.pw>",
   "license": "MIT",
