@@ -1,0 +1,33 @@
+export default [
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "accessControlAddress",
+        type: "address",
+      },
+    ],
+    stateMutability: "nonpayable",
+    type: "constructor",
+  },
+  {
+    inputs: [],
+    name: "disableAccount",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "member",
+        type: "address",
+      },
+    ],
+    name: "enableAccount",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+];
