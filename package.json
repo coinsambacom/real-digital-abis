@@ -1,6 +1,7 @@
 {
   "name": "@coinsamba/real-digital-abis",
   "version": "0.2.0",
+  "private": false,
   "description": "",
   "type": "module",
   "source": "src/index.js",
@@ -22,5 +23,7 @@
   "devDependencies": {
     "gh-release": "^7.0.2",
     "microbundle": "^0.15.1"
-  }
+  },
+  "homepage": "https://github.com/coinsambacom/real-digital-abis",
+  "repository": "git@github.com:coinsambacom/js-exchanges-connector.git"
 }
